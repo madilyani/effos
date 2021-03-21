@@ -1,0 +1,1789 @@
+@include xsm-sm {
+  // nav start
+  .nav {
+    &__header {
+      padding: 22px 14px;
+      &-logo {
+        width: 93px;
+      }
+      &-inner {
+        padding: 22px 14px;
+      }
+      &-row {
+        &-link {
+          font-size: 13px;
+          line-height: 18px;
+          svg {
+            width: 10px;
+            height: 10px;
+          }
+        }
+        &-btn {
+          width: 23px;
+          height: 15px;
+        }
+      }
+    }
+  }
+  // nav end
+  // header start
+  .header {
+    &__logo {
+      width: 93px;
+    }
+    &__inner {
+      padding: 22px 14px;
+    }
+    &__row {
+      &-link {
+        font-size: 13px;
+        line-height: 18px;
+        svg {
+          width: 10px;
+          height: 10px;
+        }
+      }
+      &-btn {
+        width: 23px;
+        height: 15px;
+      }
+    }
+  }
+  // header end
+  // hero start
+  .hero {
+    &__inner {
+      height: 430px;
+    }
+    &__content {
+      padding: 10px 50px 20px 50px;
+      &-text {
+        font-size: 15px;
+        padding: 12px 0 30px 0;
+        max-width: 250px;
+      }
+    }
+    .btn {
+      width: 100%;
+      max-width: 180px;
+      padding: 12px;
+      svg {
+        width: 18px;
+        height: 15px;
+      }
+      span {
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+  }
+  // hero end
+  // feature start
+  .feature {
+    &__inner {
+      padding: 20px 0;
+    }
+    &__card {
+      margin-bottom: 15px;
+      &-image {
+        height: 104px;
+      }
+      &-number {
+        font-size: 38px;
+        line-height: 40px;
+      }
+    }
+  }
+  // feature end
+  // about start
+  .about {
+    &__inner {
+      padding: 20px 15px;
+    }
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  // about end
+  // value start
+  .value {
+    padding: 10px 15px 20px 15px;
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &__row {
+      &-card {
+        margin-bottom: 10px;
+        padding: 25px 30px;
+        &-image {
+          margin: 0 auto 25px auto;
+          max-width: 80px;
+          img {
+            width: 100%;
+          }
+        }
+        &-title {
+          font-size: 18px;
+          line-height: 24px;
+        }
+        &-line {
+          width: 62px;
+          margin: 18px auto;
+        }
+        &:nth-child(1) {
+          .value__row-card-image {
+            img {
+              width: 66px;
+              height: 66px;
+            }
+          }
+        }
+        &:nth-child(2) {
+          .value__row-card-image {
+            img {
+              width: 50px;
+              height: 50px;
+            }
+          }
+        }
+        &:nth-child(3) {
+          .value__row-card-image {
+            img {
+              width: 78px;
+              height: 78px;
+            }
+          }
+        }
+        &:nth-child(4) {
+          .value__row-card-image {
+            img {
+              width: 66px;
+              height: 66px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // value end
+  // map start
+  .map {
+    padding: 19px 0;
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &__logo {
+      top: 16px;
+      left: 15px;
+      width: 32px;
+    }
+    &__outer {
+      height: 360px;
+    }
+    &__row {
+      &-column {
+        width: 130px;
+        &.marginMinus {
+          height: 35px;
+        }
+      }
+      &-flag {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+  // map end
+  // wait start
+  .wait {
+    padding: 19px 0;
+    &__title {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    &__row {
+      &-card {
+        margin: 15px 0;
+        &-image {
+          width: 117px;
+          height: 117px;
+          img {
+            width: 60%;
+          }
+        }
+        &-title {
+          font-size: 14px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+  // wait end
+  // vacancy start
+  .vacancy {
+    padding: 20px 15px;
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 10px;
+    }
+    &__row {
+      &-card {
+        margin: 10px 0;
+        &-title {
+          padding: 18px 0;
+          font-size: 16px;
+        }
+      }
+    }
+    &__footer {
+      margin-top: 10px;
+    }
+  }
+  // vacancy end
+  //   life start
+  .life {
+    &__title {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    &__header {
+      &-btn {
+        padding: 0 24px;
+      }
+    }
+    &__body {
+      &-content {
+        padding: 20px;
+        &-title {
+          font-size: 22px;
+          line-height: 32px;
+          font-weight: 700;
+          margin-bottom: 20px;
+          svg {
+            width: 25px;
+            height: 30px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  // life end
+  //   qeustion start
+  .question {
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &__accord {
+      margin: 10px 0;
+      &-btn {
+        padding: 11px 5px;
+      }
+      &-row {
+        width: calc(100% - 30px);
+        &-image {
+          width: 55px;
+        }
+      }
+    }
+  }
+  // question end
+}
+@include md-lg {
+  // header start
+  .header {
+    &__logo {
+      width: 107px;
+    }
+    &__inner {
+      padding: 25px 16px;
+    }
+    &__row {
+      &-link {
+        padding: 5px 14px;
+        margin-right: 15px;
+        font-size: 14px;
+        line-height: 18px;
+        span {
+          margin-right: 10px;
+        }
+        svg {
+          width: 12px;
+          height: 12px;
+        }
+      }
+      &-btn {
+        width: 26px;
+        height: 17px;
+      }
+    }
+  }
+  // header end
+  // nav start
+  .nav {
+    &__header {
+      padding: 25px 16px;
+      &-logo {
+        width: 107px;
+      }
+      &-row {
+        &-link {
+          padding: 5px 14px;
+          margin-right: 15px;
+          span {
+            margin-right: 10px;
+          }
+          svg {
+            width: 12px;
+            height: 12px;
+          }
+        }
+        &-btn {
+          width: 26px;
+          height: 17px;
+        }
+      }
+    }
+  }
+  // nav end
+  // hero start
+  .hero {
+    &__inner {
+      height: 480px;
+    }
+    &__content {
+      &-text {
+        padding: 12px 0 35px 0;
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 285px;
+        &:before {
+          bottom: -16px;
+          border: 25px solid #fff;
+          border-color: #fff #fff transparent transparent;
+        }
+      }
+    }
+    .btn {
+      width: 100%;
+      max-width: 220px;
+      padding: 14px;
+      svg {
+        width: 21px;
+        height: 17px;
+        margin-right: 8px;
+      }
+      span {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+  // hero end
+  // feature start
+  .feature {
+    &__inner {
+      padding: 23px 0;
+    }
+    &__card {
+      margin-bottom: 20px;
+      &-image {
+        height: 119px;
+      }
+      &-title {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      &-number {
+        font-size: 43px;
+        line-height: 43px;
+      }
+    }
+  }
+  // feature end
+  // about start
+  .about {
+    &__inner {
+      padding: 20px;
+    }
+  }
+  // about end
+  // value start
+  .value {
+    &__row {
+      &-card {
+        padding: 25px 30px;
+        &-image {
+          max-width: 90px;
+        }
+        &-line {
+          width: 70px;
+          margin: 22px auto;
+        }
+        &-para {
+          font-size: 16px;
+          line-height: 22px;
+        }
+        &:nth-child(1) {
+          .value__row-card-image {
+            img {
+              width: 71px;
+              height: 71px;
+            }
+          }
+        }
+        &:nth-child(2) {
+          .value__row-card-image {
+            img {
+              width: 58px;
+              height: 58px;
+            }
+          }
+        }
+        &:nth-child(3) {
+          .value__row-card-image {
+            img {
+              width: 90px;
+              height: 90px;
+            }
+          }
+        }
+        &:nth-child(4) {
+          .value__row-card-image {
+            img {
+              width: 66px;
+              height: 66px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // value end
+  // map start
+  .map {
+    padding: 22px 0;
+    &__logo {
+      top: 24px;
+      left: 17px;
+      width: 36px;
+    }
+    &__outer {
+      height: 380px;
+    }
+    &__row {
+      &-column {
+        width: 145px;
+        &.marginMinus {
+          height: 40px;
+        }
+        &.reverse .map__row-info {
+          margin-right: 25px;
+        }
+      }
+      &-flag {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    &__para {
+      padding: 15px;
+      p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+  // map end
+  // wait start
+  .wait {
+    padding: 25px 0;
+    &__title {
+      font-size: 25px;
+      line-height: 34px;
+    }
+    &__row {
+      &-card {
+        margin: 20px 0;
+        &-image {
+          width: 135px;
+          height: 135px;
+        }
+        &-title {
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  // wait end
+  // vacancy start
+  .vacancy {
+    &__row {
+      &-card {
+        &-title {
+          padding: 24px 0;
+        }
+      }
+    }
+    &__footer {
+      margin-top: 15px;
+      &-para {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+  // vacancy end
+  //   life start
+  .life {
+    &__header {
+      padding: 0 16px;
+      &-btn {
+        padding: 0 30px;
+        font-size: 16px;
+        line-height: 16px;
+        margin: 8px;
+      }
+    }
+    &__body {
+      &-content {
+        &-title {
+          font-size: 25px;
+          line-height: 34px;
+          svg {
+            width: 30px;
+            height: 35px;
+          }
+        }
+        &-para {
+          p {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  // life end
+  //   qeustion start
+  .question {
+    &__accord {
+      margin: 10px 0;
+      &-row {
+        width: calc(100% - 50px);
+        &-image {
+          width: 60px;
+        }
+        &-title {
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+      &-body {
+        font-size: 16px;
+        line-height: 19px;
+        p {
+          padding: 25px 15px;
+        }
+      }
+    }
+  }
+  // question end
+}
+@include lg-xlg {
+  // header start
+  .header {
+    &__logo {
+      width: 155px;
+    }
+    &__inner {
+      padding: 35px 25px;
+    }
+    &__row {
+      &-link {
+        padding: 10px 20px;
+        margin-right: 25px;
+        font-size: 20px;
+        line-height: 26px;
+        span {
+          margin-right: 15px;
+        }
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      &-btn {
+        width: 38px;
+        height: 25px;
+      }
+    }
+  }
+  // header end
+  // nav start
+  .nav {
+    &__header {
+      padding: 35px 25px;
+      &__logo {
+        width: 155px;
+      }
+      &-row {
+        &-link {
+          padding: 10px 20px;
+          margin-right: 25px;
+          font-size: 20px;
+          line-height: 26px;
+          span {
+            margin-right: 15px;
+          }
+          svg {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        &-btn {
+          width: 38px;
+          height: 25px;
+        }
+      }
+    }
+    &__body {
+      top: 116px;
+      height: calc(100% - 116px);
+    }
+  }
+  // nav end
+  // hero start
+  .hero {
+    &__inner {
+      height: 700px;
+    }
+    &__content {
+      &-text {
+        padding: 24px 0 24px 0;
+        font-size: 25px;
+        line-height: 32px;
+        max-width: 415px;
+
+        &:before {
+          bottom: -16px;
+          border: 25px solid #fff;
+          border-color: #fff #fff transparent transparent;
+        }
+      }
+    }
+    .btn {
+      max-width: 280px;
+      padding: 20px;
+      svg {
+        width: 30px;
+        height: 25px;
+        margin-right: 10px;
+      }
+      span {
+        font-size: 20px;
+        line-height: 26px;
+      }
+    }
+  }
+  // hero end
+  // feature start
+  .feature {
+    &__inner {
+      padding: 30px 0;
+    }
+    &__card {
+      margin-bottom: 35px;
+      &-image {
+        height: 172px;
+      }
+      &-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 10px;
+      }
+      &-number {
+        font-size: 62px;
+        line-height: 62px;
+      }
+    }
+  }
+  // feature end
+  // about start
+  .about {
+    &__inner {
+      padding: 25px;
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    &__para {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__row {
+      &-title {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+  // about end
+  // value start
+  .value {
+    &__title {
+      font-size: 32px;
+      line-height: 42px;
+      margin-bottom: 50px;
+    }
+    &__row {
+      &-card {
+        margin-bottom: 30px;
+        padding: 20px 0;
+        &-image {
+          max-width: 75px;
+        }
+        &-title {
+          font-size: 24px;
+          line-height: 32px;
+        }
+        &-line {
+          width: 100px;
+          margin: 20px auto;
+        }
+        &-para {
+          font-size: 18px;
+          line-height: 24px;
+        }
+        &:nth-child(1) {
+          .value__row-card-image {
+            img {
+              width: 77px;
+              height: 77px;
+            }
+          }
+        }
+        &:nth-child(2) {
+          .value__row-card-image {
+            img {
+              width: 60px;
+              height: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // value end
+  // map start
+  .map {
+    padding: 30px 0;
+    &__logo {
+      top: 26px;
+      left: 24px;
+      width: 52px;
+    }
+    &__outer {
+      height: 540px;
+    }
+    &__row {
+      padding: 0 15px;
+      &-column {
+        padding: 10px;
+        width: 200px;
+        &.marginMinus {
+          height: 60px;
+          width: 100px;
+          padding-left: 100px;
+          margin-left: -80px;
+        }
+      }
+      &-info {
+        &-city {
+          font-size: 18px;
+          line-height: 24px;
+        }
+        &-country {
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+      &-flag {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    &__para {
+      padding: 15px;
+      p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+  // map end
+  // wait start
+  .wait {
+    padding: 40px 0;
+    &__row {
+      &-card {
+        margin: 30px 0;
+        &-image {
+          width: 190px;
+          height: 190px;
+        }
+        &-title {
+          font-size: 21px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+  // wait end
+  // vacancy start
+  .vacancy {
+    padding: 35px 25px;
+    &__title {
+      font-size: 32px;
+      line-height: 42px;
+      margin-bottom: 35px;
+    }
+    &__row {
+      &-card {
+        margin-bottom: 15px;
+        &-title {
+          padding: 30px 0;
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+    &__footer {
+      margin-top: 15px;
+      &-para {
+        padding: 20px 20px 40px 20px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .btn {
+      max-width: 200px;
+      margin-top: -40px;
+      padding: 20px;
+      span {
+        font-size: 20px;
+        line-height: 26px;
+      }
+      svg {
+        width: 30px;
+        height: 25px;
+        margin-right: 8px;
+      }
+    }
+  }
+  // vacancy end
+  //   life start
+  .life {
+    &__header {
+      padding: 0 16px;
+      &-btn {
+        padding: 0 30px;
+        font-size: 16px;
+        line-height: 16px;
+        margin: 8px;
+      }
+    }
+    &__body {
+      &-content {
+        &-title {
+          font-size: 25px;
+          line-height: 34px;
+          svg {
+            width: 30px;
+            height: 35px;
+          }
+        }
+        &-para {
+          p {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  // life end
+  //   qeustion start
+  .question {
+    padding: 25px;
+    &__title {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    &__accord {
+      &-btn {
+        svg {
+          width: 24px;
+          height: 15px;
+          margin-right: 15px;
+        }
+      }
+      &-row {
+        width: calc(100% - 100px);
+        &-image {
+          width: 90px;
+        }
+        &-title {
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+      &-body {
+        font-size: 18px;
+        line-height: 24px;
+        p {
+          padding: 30px 22px;
+        }
+      }
+    }
+  }
+  // question end
+}
+@include xlg-xxlg {
+  // header start
+  .header {
+    &__logo {
+      width: 200px;
+    }
+    &__inner {
+      padding: 45px 30px;
+    }
+    &__row {
+      &-link {
+        padding: 15px 25px;
+        font-size: 25px;
+        line-height: 32px;
+        margin-right: 35px;
+        span {
+          margin-right: 25px;
+        }
+        svg {
+          width: 22px;
+          height: 22px;
+        }
+      }
+      &-btn {
+        width: 50px;
+        height: 32px;
+      }
+    }
+  }
+  // header end
+  // nav start
+  .nav {
+    &__header {
+      padding: 45px 30px;
+      &__logo {
+        width: 200px;
+      }
+      &-row {
+        &-link {
+          padding: 15px 25px;
+          font-size: 25px;
+          line-height: 32px;
+          margin-right: 35px;
+          span {
+            margin-right: 25px;
+          }
+          svg {
+            width: 22px;
+            height: 22px;
+          }
+        }
+        &-btn {
+          width: 50px;
+          height: 32px;
+        }
+      }
+    }
+    &__body {
+      top: 152px;
+      height: calc(100% - 152px);
+      &-link {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 35px 0;
+      }
+    }
+  }
+  // nav end
+  // hero start
+  .hero {
+    &__inner {
+      height: 900px;
+    }
+    &__content {
+      &-text {
+        padding: 30px 0 50px 0;
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 530px;
+        &:before {
+          bottom: -40px;
+          right: 50px;
+          border: 80px solid #fff;
+          border-color: #fff #fff transparent transparent;
+        }
+      }
+    }
+    .btn {
+      max-width: 340px;
+      padding: 25px;
+      svg {
+        width: 40px;
+        height: 32px;
+        margin-right: 15px;
+      }
+      span {
+        font-size: 25px;
+        line-height: 34px;
+      }
+    }
+  }
+  // hero end
+  // feature start
+  .feature {
+    &__inner {
+      padding: 80px 0;
+    }
+    &__card {
+      margin-bottom: 50px;
+      &-title {
+        font-size: 24px;
+        line-height: 32px;
+      }
+      &-number {
+        font-size: 77px;
+        line-height: 77px;
+      }
+    }
+  }
+  // feature end
+  // about start
+  .about {
+    &__inner {
+      padding: 60px;
+    }
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+    &__para {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &__row {
+      &-title {
+        font-size: 30px;
+        line-height: 40px;
+      }
+    }
+  }
+  // about end
+  // value start
+  .value {
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+      margin-bottom: 40px;
+    }
+    &__row {
+      &-card {
+        margin-bottom: 30px;
+        padding: 25px 0;
+        &-image {
+          max-width: 85px;
+        }
+        &-title {
+          font-size: 32px;
+          line-height: 42px;
+        }
+        &-line {
+          width: 130px;
+        }
+        &-para {
+          font-size: 24px;
+          line-height: 32px;
+        }
+        &:nth-child(1) {
+          .value__row-card-image {
+            img {
+              width: 85px;
+              height: 85px;
+            }
+          }
+        }
+        &:nth-child(2) {
+          .value__row-card-image {
+            img {
+              width: 74px;
+              height: 74px;
+            }
+          }
+        }
+        &:nth-child(3) {
+          .value__row-card-image {
+            img {
+              width: 110px;
+              height: 110px;
+            }
+          }
+        }
+        &:nth-child(4) {
+          .value__row-card-image {
+            img {
+              width: 96px;
+              height: 96px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // value end
+  // map start
+  .map {
+    padding: 30px 0;
+    &__logo {
+      top: 26px;
+      left: 24px;
+      width: 52px;
+    }
+    &__outer {
+      height: 540px;
+    }
+    &__row {
+      padding: 0 20px;
+      &-column {
+        padding: 10px;
+        width: 260px;
+        &.marginMinus {
+          height: 76px;
+          margin-left: -100px;
+          width: 140px;
+          padding-left: 120px;
+        }
+        &.reverse .map__row-info {
+          margin-right: 35px;
+        }
+      }
+      &-info {
+        &-city {
+          font-size: 24px;
+          line-height: 32px;
+          margin-block-start: 5px;
+        }
+        &-country {
+          font-size: 16px;
+          line-height: 21px;
+        }
+      }
+      &-flag {
+        width: 76px;
+        height: 76px;
+      }
+    }
+    &__para {
+      p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+  // map end
+  // wait start
+  .wait {
+    padding: 50px 0;
+    &__row {
+      &-card {
+        margin: 45px 0;
+        &-image {
+          width: 250px;
+          height: 250px;
+        }
+        &-title {
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+  // wait end
+  // vacancy start
+  .vacancy {
+    padding: 45px 30px;
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+      margin-bottom: 55px;
+    }
+    &__row {
+      &-card {
+        margin-bottom: 15px;
+        &-title {
+          padding: 40px 0;
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+    }
+    &__footer {
+      margin-top: 15px;
+      &-para {
+        padding: 20px 20px 50px 20px;
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+    .btn {
+      max-width: 260px;
+      margin-top: -50px;
+      padding: 25px;
+      span {
+        font-size: 25px;
+        line-height: 32px;
+      }
+      svg {
+        width: 40px;
+        height: 32px;
+        margin-right: 8px;
+      }
+    }
+  }
+  // vacancy end
+  //   life start
+  .life {
+    padding: 50px 0;
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+    &__header {
+      padding: 20px 30px;
+    }
+    &__body {
+      &-content {
+        padding: 30px;
+        &-title {
+          font-size: 36px;
+          line-height: 48px;
+          svg {
+            width: 55px;
+            height: 65px;
+          }
+        }
+        &-para {
+          p {
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+  // life end
+  //   qeustion start
+  .question {
+    padding: 40px 20px;
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+    &__accord {
+      &-btn {
+        svg {
+          width: 28px;
+          height: 16px;
+        }
+      }
+      &-row {
+        width: calc(100% - 100px);
+        &-image {
+          width: 85px;
+        }
+        &-title {
+          font-size: 26px;
+          line-height: 36px;
+        }
+      }
+      &-body {
+        font-size: 24px;
+        line-height: 32px;
+        p {
+          padding: 30px;
+        }
+      }
+    }
+  }
+  // question end
+}
+@include xxxlg-xxxxlg {
+  // header start
+  .header {
+    &__logo {
+      width: 190px;
+    }
+    &__inner {
+      padding: 30px 0;
+    }
+    &__row {
+      &-link {
+        padding: 10px 20px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-right: 30px;
+        span {
+          margin-right: 18px;
+        }
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      &-btn {
+        width: 24px;
+        height: 16px;
+      }
+    }
+  }
+  // header end
+  // nav start
+  .nav {
+    &__header {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 30px 50px;
+      &-logo {
+        width: 190px;
+      }
+      &-row {
+        &-link {
+          padding: 10px 20px;
+          font-size: 24px;
+          line-height: 32px;
+          margin-right: 30px;
+          span {
+            margin-right: 18px;
+          }
+          svg {
+            width: 20px;
+            height: 20px;
+          }
+        }
+        &-btn {
+          width: 24px;
+          height: 16px;
+        }
+      }
+    }
+  }
+  // nav end
+  // hero start
+  .hero {
+    &__inner {
+      display: flex;
+      align-items: center;
+      height: 550px;
+    }
+    &__image {
+      order: 2;
+      width: 60%;
+      right: 0;
+      left: unset;
+      top: -200px;
+      z-index: 2;
+    }
+    &__content {
+      order: 1;
+      width: 50%;
+      padding: 0;
+      height: unset;
+      &-text {
+        text-align: left;
+        padding: 30px 40px;
+        border-radius: 75px;
+        max-width: 440px;
+        font-size: 36px;
+        line-height: 50px;
+        margin: 0;
+      }
+    }
+    .btn {
+      margin: 100px 0 0 0;
+      padding: 15px 20px;
+      max-width: 210px;
+      svg {
+        width: 24px;
+        height: 20px;
+      }
+      span {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+  // hero end
+  // feature start
+  .feature {
+    &__inner {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      padding: 30px 0;
+    }
+    &__card {
+      width: 32%;
+      margin-bottom: 0;
+      &-image {
+        height: unset;
+        width: 100%;
+      }
+      &-number {
+        font-size: 72px;
+        line-height: 72px;
+      }
+    }
+  }
+  // feature end
+  // about start
+  .about {
+    &__inner {
+      padding: 40px 0;
+    }
+    &__para {
+      max-width: 830px;
+      margin: 0 auto;
+    }
+    &__row {
+      display: flex;
+      align-items: center;
+      &-image {
+        width: calc(100% - 460px);
+        order: 2;
+        margin-left: 80px;
+      }
+      &-title {
+        width: 370px;
+        order: 1;
+        text-align: left;
+      }
+    }
+  }
+  // about end
+  // value start
+  .value {
+    padding: 0 0 80px 0;
+    &__row {
+      display: flex;
+      align-items: stretch;
+      margin: 0 -10px;
+      &-card {
+        width: calc(25% - 20px);
+        margin: 0 10px;
+        &-image {
+          max-width: unset;
+          height: 90px;
+          margin: 0 auto 40px auto;
+          img {
+            width: unset;
+            height: 100%;
+          }
+        }
+        &-title {
+          font-size: 24px;
+          line-height: 32px;
+        }
+        &-line {
+          margin: 25px auto 25px auto;
+          width: 65px;
+          height: 2px;
+        }
+        &-para {
+          font-size: 20px;
+          line-height: 27px;
+          padding: 0 15px;
+        }
+        &:nth-child(1) {
+          .value__row-card-image {
+            img {
+              width: 91px;
+              height: 91px;
+            }
+          }
+        }
+        &:nth-child(2) {
+          .value__row-card-image {
+            img {
+              width: 78px;
+              height: 78px;
+            }
+          }
+        }
+        &:nth-child(4) {
+          .value__row-card-image {
+            img {
+              width: 82px;
+              height: 82px;
+            }
+          }
+        }
+      }
+    }
+  }
+  // value end
+  // map start
+  .map {
+    padding: 40px 0;
+    &__inner {
+      position: relative;
+    }
+    &__title {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    &__logo {
+      top: 40px;
+      left: 0;
+      width: 55px;
+    }
+    &__content {
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      align-items: flex-end;
+    }
+    &__row {
+      width: 50%;
+    }
+    &__outer {
+      height: 540px;
+    }
+    &__flags {
+      position: absolute;
+      bottom: 20px;
+      left: unset;
+      right: 0;
+      @include transformReset;
+      width: 50%;
+      height: 70%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &__row {
+      padding: 0 20px;
+      &-column {
+        padding: 10px;
+        width: 200px;
+        &.marginMinus {
+          height: 56px;
+          margin-left: -70px;
+          width: 100px;
+          padding-left: 100px;
+        }
+        &.reverse .map__row-info {
+          margin-right: 25px;
+        }
+      }
+      &-info {
+        &-city {
+          font-size: 20px;
+          line-height: 27px;
+          margin-bottom: 0;
+        }
+        &-country {
+          font-size: 18px;
+          line-height: 24px;
+        }
+      }
+      &-flag {
+        width: 50px;
+        height: 50px;
+        margin-right: 30px;
+      }
+    }
+    &__para {
+      position: absolute;
+      z-index: 4;
+      bottom: 50px;
+      left: 0;
+      width: 420px;
+      padding: 0;
+      p {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  // map end
+  // wait start
+  .wait {
+    &__row {
+      align-items: stretch;
+      &-card {
+        margin: 0;
+        height: 250px;
+        width: 20%;
+        justify-content: unset;
+        &-image {
+          width: 150px;
+          height: 150px;
+        }
+        &-title {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  // wait end
+  // vacancy start
+  .vacancy {
+    padding: 140px 0;
+    &__bg {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    &__row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+      position: relative;
+      &-card {
+        width: calc(33.3% - 20px);
+        margin: 10px;
+        &-title {
+          font-size: 28px;
+          line-height: 36px;
+          padding: 15px;
+        }
+      }
+    }
+    &__footer {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-top: 100px;
+      &-para {
+        font-size: 20px;
+        line-height: 27px;
+      }
+    }
+    .btn {
+      padding: 17px 0;
+      max-width: 240px;
+      svg {
+        width: 24px;
+        height: 20px;
+      }
+      span {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+  // vacancy end
+  .life {
+    padding: 80px 0;
+    &__para {
+      display: block;
+      max-width: 830px;
+      margin: 40px auto;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      color: #121b24;
+      text-align: center;
+    }
+    &__header {
+      padding: 0;
+    }
+    &__body {
+      margin-top: 50px;
+      align-items: center;
+      justify-content: space-between;
+      &.active {
+        display: flex;
+      }
+      &-image {
+        width: 570px;
+      }
+      &-content {
+        width: 490px;
+        padding: 0;
+        &-title {
+          justify-content: flex-start;
+          align-items: center;
+          svg {
+            width: 45px;
+            height: 52px;
+            margin-right: 14px;
+          }
+        }
+        &-para {
+          p {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .question {
+    padding: 55px 0;
+    &__title {
+      margin-bottom: 60px;
+      br {
+        display: none;
+      }
+    }
+    &__accord {
+      &-btn {
+        padding: 15px;
+        svg {
+          width: 22px;
+          height: 11px;
+        }
+      }
+      &-row {
+        &-image {
+          width: 67px;
+          height: 67px;
+        }
+        &-title {
+          margin-left: 25px;
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}

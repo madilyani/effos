@@ -1,0 +1,94 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba($color: #000000, $alpha: 0.5);
+  visibility: hidden;
+  &__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    max-height: 0;
+    overflow: hidden;
+    @include transitionHeight;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 12px;
+    &-logo {
+      display: block;
+      width: 83px;
+      img {
+        width: 100%;
+      }
+    }
+    &-row {
+      display: flex;
+      align-items: center;
+      &-link {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background: rgb(30, 32, 249);
+        background: linear-gradient(
+          0deg,
+          rgba(30, 32, 249, 1) 0%,
+          rgba(74, 108, 255, 1) 100%
+        );
+        border-radius: 4px;
+        color: #fff;
+        margin-right: 9px;
+        span {
+          margin-right: 9px;
+        }
+        svg {
+          width: 9px;
+          height: 9px;
+        }
+      }
+      &-btn {
+        width: 20px;
+        height: 14px;
+        cursor: pointer;
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  &__body {
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 67px);
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    &-link {
+      padding: 15px 0;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #121b24;
+      text-align: center;
+      display: block;
+    }
+  }
+  &.showNav {
+    visibility: visible;
+
+    & .nav__inner {
+      max-height: 2000px;
+    }
+  }
+}

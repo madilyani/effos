@@ -1,0 +1,810 @@
+@include xsm-sm {
+  // intro start
+  .intro {
+    height: 450px;
+    &__inner {
+      &-content {
+        padding: 20px 15px;
+      }
+    }
+  }
+  // intro end
+  // about start
+  .about {
+    .btn {
+      max-width: 200px;
+      padding: 17px 19px;
+      margin-top: -28px;
+      svg {
+        width: 24px;
+        height: 20px;
+        margin-right: 12px;
+      }
+      span {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+    &__inner {
+      padding: 0 15px;
+    }
+    &__header {
+      padding: 30px 0;
+      &-title {
+        font-size: 19px;
+        line-height: 26px;
+      }
+      &-tag {
+        span {
+          font-size: 11px;
+          padding: 3px 5px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    &__question {
+      &-title {
+        font-size: 17px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  // about end
+  // contact start
+  .contact {
+    padding: 25px 15px;
+    &__title {
+      font-size: 19px;
+    }
+  }
+  .form {
+    &__title {
+      font-size: 17px;
+      margin-bottom: 10px;
+    }
+    &__input {
+      margin-bottom: 18px;
+    }
+    &__header {
+      &-title {
+        font-size: 10px;
+      }
+      .upload {
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+    &__input {
+      input {
+        padding: 10px;
+      }
+      textarea {
+        padding: 10px;
+      }
+    }
+    .btn {
+      max-width: 240px;
+      span {
+        font-size: 16px;
+      }
+      svg {
+        width: 24px;
+        height: 20px;
+      }
+    }
+  }
+  // contact end
+  // career start
+  .career {
+    &__content {
+      &-title {
+        font-size: 23px;
+      }
+      &-link {
+        font-size: 17px;
+        svg {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  // career end
+  // footer start
+  .footer {
+    padding: 20px 15px;
+  }
+  // footer end
+}
+@include sm-md {
+}
+@include md-lg {
+  // intro start
+  .intro {
+    height: 520px;
+    &__inner {
+      &-content {
+        &-logo {
+          width: 106px;
+        }
+        &-title {
+          font-size: 28px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+  // intro end
+  // about start
+  .about {
+    .btn {
+      max-width: 240px;
+      padding: 20px;
+      margin-top: -32px;
+
+      svg {
+        width: 27px;
+        height: 23px;
+        margin-right: 14px;
+      }
+      span {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+    &__header {
+      padding: 35px 0;
+      &-title {
+        font-size: 21px;
+        line-height: 27px;
+      }
+      &-tag {
+        span {
+          font-size: 12px;
+          padding: 4px 7px;
+        }
+      }
+    }
+    &__question {
+      padding: 22px 17px;
+      &-title {
+        font-size: 19px;
+        margin-bottom: 25px;
+      }
+      ul {
+        li {
+          font-size: 16px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  // about end
+  // contact start
+  .contact {
+    &__title {
+      font-size: 21px;
+    }
+  }
+  .form {
+    margin: 35px 0 0 0;
+    padding: 46px 17px;
+    &__title {
+      font-size: 19px;
+      margin-bottom: 17px;
+    }
+    &__input {
+      margin-bottom: 20px;
+    }
+    &__header {
+      &-title {
+        font-size: 11px;
+      }
+      .upload {
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+    &__input {
+      input {
+        padding: 10px;
+      }
+      textarea {
+        padding: 12px;
+        width: calc(100% - 24px);
+      }
+    }
+    .btn {
+      max-width: 280px;
+      span {
+        font-size: 18px;
+      }
+      svg {
+        width: 27px;
+        height: 23px;
+      }
+    }
+  }
+  // contact end
+  // career start
+  .career {
+    &__content {
+      padding: 0 18px 20px 18px;
+      &-title {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      &-link {
+        margin-top: 20px;
+        font-size: 19px;
+        svg {
+          width: 22px;
+        }
+      }
+    }
+  }
+  // career end
+  // footer start
+  .footer {
+    padding: 22px;
+  }
+  // footer end
+}
+@include lg-xlg {
+  // intro start
+  .intro {
+    height: 750px;
+    &__inner {
+      &-content {
+        padding: 38px 23px 0 23px;
+        &-logo {
+          width: 150px;
+        }
+        &-title {
+          font-size: 32px;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+  // intro end
+  // about start
+  .about {
+    &__inner {
+      padding: 0 23px;
+    }
+    .btn {
+      max-width: 340px;
+      padding: 28px 30px;
+      margin-top: -45px;
+      svg {
+        width: 40px;
+        height: 33px;
+        margin-right: 20px;
+      }
+      span {
+        font-size: 25px;
+        line-height: 34px;
+      }
+    }
+    &__header {
+      padding: 50px 0;
+      &-title {
+        font-size: 29px;
+        line-height: 39px;
+      }
+      &-tag {
+        span {
+          font-size: 17px;
+          padding: 6px 10px;
+        }
+      }
+    }
+    &__question {
+      padding: 30px 24px;
+      &-title {
+        font-size: 27px;
+        line-height: 36px;
+        margin-bottom: 38px;
+      }
+      ul {
+        li {
+          font-size: 22px;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+  // about end
+  // contact start
+  .contact {
+    padding: 30px 23px;
+    &__title {
+      font-size: 29px;
+      left: 39px;
+    }
+  }
+  .form {
+    margin: 50px 0 0 0;
+    padding: 65px 25px;
+    &__title {
+      font-size: 27px;
+      line-height: 36px;
+      margin-bottom: 15px;
+    }
+    &__input {
+      margin-bottom: 30px;
+    }
+    &__header {
+      margin-bottom: 20px;
+      &-title {
+        font-size: 15px;
+      }
+      .upload {
+        padding: 12px 20px 12px 12px;
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+    &__input {
+      input {
+        padding: 15px;
+        width: calc(100% - 30px);
+        font-size: 18px;
+      }
+      textarea {
+        padding: 15px;
+        width: calc(100% - 30px);
+        font-size: 18px;
+      }
+    }
+    .btn {
+      max-width: 400px;
+      span {
+        font-size: 25px;
+      }
+      svg {
+        width: 40px;
+        height: 33px;
+      }
+    }
+  }
+  // contact end
+  // career start
+  .career {
+    &__content {
+      padding: 0 27px 27px 27px;
+      &-title {
+        font-size: 37px;
+        line-height: 47px;
+      }
+      &-link {
+        margin-top: 40px;
+        font-size: 27px;
+        margin-bottom: 20px;
+        svg {
+          width: 33px;
+        }
+      }
+    }
+  }
+  // career end
+  // footer start
+  .footer {
+    padding: 30px 25px;
+    &__inner {
+      display: flex;
+      align-items: center;
+    }
+    &__social {
+      width: 50%;
+      order: 2;
+    }
+    &__copyright {
+      order: 1;
+      font-size: 24px;
+      line-height: 32px;
+      width: 50%;
+      position: relative;
+      .finger {
+        display: block;
+        position: absolute;
+        top: 50%;
+        @include transformY;
+        right: 20px;
+        width: 35px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  // footer end
+}
+@include xlg-xxlg {
+  // intro start
+  .intro {
+    height: 970px;
+    &__inner {
+      &-content {
+        padding: 50px 30px 0 30px;
+        &-logo {
+          width: 200px;
+        }
+        &-title {
+          font-size: 42px;
+          line-height: 52px;
+        }
+      }
+    }
+  }
+  // intro end
+  // about start
+  .about {
+    .btn {
+      max-width: 440px;
+      padding: 36px 40px;
+      margin-top: -57px;
+      svg {
+        width: 50px;
+        height: 42px;
+        margin-right: 28px;
+      }
+      span {
+        font-size: 31px;
+        line-height: 42px;
+      }
+    }
+    &__inner {
+      padding: 0 25px;
+    }
+    &__header {
+      padding: 60px 0;
+      &-title {
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 20px;
+      }
+      &-tag {
+        span {
+          font-size: 21px;
+          line-height: 30px;
+          padding: 8px 13px;
+          margin-right: 10px;
+        }
+      }
+    }
+    &__question {
+      padding: 40px 31px;
+      &-title {
+        font-size: 34px;
+        line-height: 44px;
+        margin-bottom: 50px;
+      }
+      ul {
+        li {
+          font-size: 26px;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+  // about end
+  // contact start
+  .contact {
+    padding: 50px 25px;
+    &__title {
+      font-size: 36px;
+      line-height: 46px;
+    }
+  }
+  .form {
+    margin: 65px 0 0 0;
+    padding: 85px 30px;
+    &__title {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+    &__input {
+      margin-bottom: 38px;
+    }
+    &__header {
+      margin-bottom: 55px;
+      &-title {
+        font-size: 19px;
+        line-height: 26px;
+        margin-left: 20px;
+      }
+      .upload {
+        padding: 17px 14px;
+        svg {
+          width: 40px;
+          height: 40px;
+          margin-right: 20px;
+        }
+        span {
+          font-size: 25px;
+          line-height: 35px;
+        }
+      }
+    }
+    &__input {
+      input {
+        padding: 25px;
+        width: calc(100% - 50px);
+        font-size: 22px;
+      }
+      textarea {
+        padding: 25px;
+        width: calc(100% - 50px);
+        font-size: 22px;
+        line-height: 32px;
+      }
+    }
+    .btn {
+      max-width: 440px;
+      padding: 36px 35px;
+      span {
+        font-size: 31px;
+        line-height: 41px;
+      }
+      svg {
+        width: 50px;
+        height: 42px;
+        margin-right: 20px;
+      }
+    }
+  }
+  // contact end
+  // career start
+  .career {
+    margin: 0 25px 100px 25px;
+    &__content {
+      padding: 0 25px 20px 25px;
+      &-title {
+        font-size: 47px;
+        line-height: 57px;
+      }
+      &-link {
+        margin-bottom: 20px;
+        font-size: 34px;
+        line-height: 44px;
+        margin-top: 60px;
+        svg {
+          width: 42px;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  // career end
+  // footer start
+  .footer {
+    &__copyright {
+      .finger {
+        width: 60px;
+      }
+    }
+  }
+  // footer end
+}
+@include xxlg-xxxlg {
+  .auto__container {
+    padding: 0 50px;
+  }
+  // footer start
+  .footer {
+    padding: 40px 0;
+    &__copyright {
+      .finger {
+        width: 60px;
+      }
+    }
+  }
+  // footer end
+}
+@include xxxlg-xxxxlg {
+  .auto__container {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  // intro start
+  .intro {
+    height: 450px;
+    &__inner {
+      display: flex;
+      align-items: stretch;
+      &-content {
+        padding: 30px 0;
+        &-title {
+          font-size: 48px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+  // intro end
+  // about start
+  .about {
+    .btn {
+      max-width: 200px;
+      padding: 17px 19px;
+      margin-top: -28px;
+      svg {
+        width: 24px;
+        height: 20px;
+        margin-right: 12px;
+      }
+      span {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+    &__inner {
+      padding: 0;
+    }
+    &__header {
+      padding: 40px 0;
+      &-title {
+        font-size: 36px;
+        line-height: 50px;
+      }
+      &-tag {
+        span {
+          font-size: 18px;
+          line-height: 28px;
+          padding: 6px 14px;
+        }
+      }
+    }
+    &__question {
+      padding: 50px 80px;
+      &-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-bottom: 18px;
+      }
+      ul {
+        li {
+          font-size: 18px;
+          line-height: 34px;
+        }
+      }
+    }
+  }
+  // about end
+  // contact start
+  .contact {
+    padding: 40px 0 0 0;
+    &__title {
+      font-size: 36px;
+      line-height: 50px;
+    }
+  }
+  .form {
+    margin: 50px 0;
+    padding: 35px 75px;
+    &__title {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 0;
+    }
+    &__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &__input {
+      margin-bottom: 0;
+      width: 75%;
+      &.textarea {
+        width: 100%;
+        margin-top: 30xp;
+      }
+    }
+    &__header {
+      margin-bottom: 25px;
+      margin-top: 14px;
+      &-title {
+        font-size: 14px;
+        margin-left: 15px;
+      }
+      .upload {
+        padding: 8px 7px;
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+        span {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+    &__input {
+      input {
+        padding: 10px;
+      }
+      textarea {
+        padding: 10px;
+      }
+    }
+    .btn {
+      padding: 17px 19px;
+      max-width: 240px;
+      margin: 30px 0 0 0;
+      span {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      svg {
+        width: 24px;
+        height: 20px;
+      }
+    }
+  }
+  // contact end
+  // career start
+  .career {
+    margin: 0 0 50px 0;
+    background: none;
+    &__inner {
+      background: rgb(250, 185, 97);
+      background: linear-gradient(
+        0deg,
+        rgba(250, 185, 97, 1) 0%,
+        rgba(247, 144, 28, 1) 100%
+      );
+      height: 300px;
+      overflow: hidden;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+    }
+    &__content {
+      order: 1;
+      width: calc(50% - 140px);
+      padding: 70px;
+      &-title {
+        font-size: 23px;
+      }
+      &-link {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+        margin-top: 50px;
+        svg {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+    &__image {
+      width: 50%;
+      order: 2;
+      img {
+        margin-top: 0;
+      }
+    }
+  }
+  // career end
+  // footer start
+  .footer {
+    padding: 20px 0;
+    &__copyright {
+      .finger {
+        width: 75px;
+      }
+    }
+  }
+  // footer end
+}

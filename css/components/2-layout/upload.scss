@@ -1,0 +1,40 @@
+.upload {
+  padding: 6px 12px 6px 6px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #4548e8;
+  position: relative;
+  @include transition;
+  cursor: pointer;
+  svg {
+    width: 16px;
+    fill: #4548e8;
+    margin-right: 10px;
+  }
+  span {
+    font-size: 10px;
+    line-height: 14px;
+    color: #4548e8;
+    font-weight: 600;
+  }
+  & input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+  &:active {
+    background: #ccf;
+    border: 2px solid #ccf;
+    svg {
+      fill: #ccf;
+    }
+  }
+}

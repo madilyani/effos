@@ -1,0 +1,86 @@
+.form {
+  margin: 30px 0 0 0;
+  padding: 18px 15px;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba($color: #70869d, $alpha: 0.15);
+  border-radius: 12px;
+  &__title {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 14px;
+    color: #121b24;
+    font-weight: 600;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    &-title {
+      font-size: 9px;
+      line-height: 13px;
+      font-weight: 400;
+      color: rgba($color: #121b24, $alpha: 0.4);
+      margin-left: 13px;
+    }
+  }
+  &__input {
+    width: 100%;
+    margin-bottom: 15px;
+    input {
+      padding: 8px 10px;
+      border-radius: 5px;
+      background: rgba($color: #f0f5f8, $alpha: 0.4);
+      border: 1px solid #c7d0d6;
+      width: calc(100% - 20px);
+      color: #828282;
+    }
+    textarea {
+      padding: 8px 10px;
+      border-radius: 5px;
+      background: rgba($color: #f0f5f8, $alpha: 0.4);
+      border: 1px solid #c7d0d6;
+      width: calc(100% - 20px);
+      color: #828282;
+    }
+  }
+}
+.career {
+  margin: 0 12px 30px 12px;
+  border-radius: 12px;
+  background: rgb(250, 185, 97);
+  background: linear-gradient(
+    0deg,
+    rgba(250, 185, 97, 1) 0%,
+    rgba(247, 144, 28, 1) 100%
+  );
+  &__image {
+    width: 100%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      margin-top: -40px;
+    }
+  }
+  &__content {
+    padding: 0 12px 20px 12px;
+    &-title {
+      font-size: 19px;
+      line-height: 32px;
+      font-weight: 900;
+      color: #fff;
+    }
+    &-link {
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 600;
+      color: #121b24;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      svg {
+        width: 17px;
+        margin-left: 20px;
+      }
+    }
+  }
+}

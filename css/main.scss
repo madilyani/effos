@@ -1,0 +1,25 @@
+@import "./animate.css";
+// 1-main components
+@import "./components/1-main/mixin.scss";
+@import "./components/1-main/nulifier.scss";
+// 2-layout components
+@import "./components/2-layout/btn.scss";
+@import "./components/2-layout/upload.scss";
+@import "./components/2-layout/form.scss";
+@import "./components/2-layout/footer.scss";
+@import "./components/2-layout/header.scss";
+@import "./components/2-layout/nav.scss";
+
+
+
+// 3-page components
+@import "./components/3-page/form.scss"; 
+@import "./components/3-page/index.scss"; 
+
+
+
+// responsive
+@import "./components/2-layout/responsive.scss";
+@import "./components/2-layout/responsiveHome.scss";
+
+

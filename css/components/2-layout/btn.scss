@@ -1,0 +1,42 @@
+.btn {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto;
+  display: block;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: rgb(245, 136, 35);
+  background: linear-gradient(
+    0deg,
+    rgba(245, 136, 35, 1) 0%,
+    rgba(251, 164, 73, 1) 100%
+  );
+  @include transition;
+  padding: 14px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  svg {
+    width: 20px;
+    height: 17px;
+    fill: #fff;
+    margin-right: 8px;
+  }
+  span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+  }
+  & input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}

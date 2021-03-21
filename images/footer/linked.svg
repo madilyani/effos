@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.198" height="80" viewBox="0 0 80.198 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a82ff"/>
+      <stop offset="1" stop-color="#3cddfb"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_32" data-name="Group 32" transform="translate(-0.201)">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M-40,0h-.2a40,40,0,0,0-40,40,40,40,0,0,0,40,40h.2A40,40,0,0,0,0,40,40,40,0,0,0-40,0Z" transform="translate(80.399)" fill="url(#linear-gradient)"/>
+    <path id="Linkedin" d="M29.363,33.6V21.788c0-3.091-1.3-5.2-4.169-5.2a4.2,4.2,0,0,0-3.978,2.8,5.108,5.108,0,0,0-.179,1.866V33.6H12.784s.106-20.923,0-22.825h8.253v3.582c.487-1.566,3.124-3.8,7.333-3.8,5.221,0,9.323,3.283,9.323,10.352V33.6ZM.95,33.6V10.775H8.3V33.6ZM4.383,7.92C1.724,7.92,0,6.176,0,3.964,0,1.708,1.775,0,4.487,0S8.865,1.7,8.918,3.957c0,2.211-1.72,3.963-4.482,3.963Z" transform="translate(23.257 23.2)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+.footer {
+  padding: 17px 12px;
+  background: rgb(30, 32, 249);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 32, 249, 1) 0%,
+    rgba(74, 108, 255, 1) 100%
+  );
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 30%;
+      &-link {
+        width: 42%;
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    &-logo {
+      width: 30%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &__copyright {
+    font-size: 6px;
+    line-height: 8px;
+    font-weight: 400;
+    color: #fff;
+    .finger {
+      display: none;
+    }
+  }
+}
